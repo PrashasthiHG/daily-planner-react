@@ -1,0 +1,39 @@
+li {
+  display: flex;
+  justify-content: center;
+  /* align-items: center; */
+  padding: 10px;
+  background: #f4f4f4;
+  margin-top: 8px;
+  border-radius: 5px;
+}
+
+.completed span {
+  text-decoration: line-through;
+  color: gray;
+}
+li button {
+  background-color:  #d16a6a;
+}
+
+li button:hover {
+  background-color: #8e1d1d;
+}
+.delete-btn{
+  background: #d16a6a;
+  border:none;
+  color:white;
+  border-radius:50%;
+  width:30px;
+  height:30px;
+  cursor:pointer;
+}
+
+.delete-btn:hover{
+  background:#8e1d1d;
+}
+span{
+  flex:1;
+  margin-left:10px;
+  
+}

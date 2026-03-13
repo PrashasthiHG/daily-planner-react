@@ -1,0 +1,33 @@
+form{
+  display:flex;
+  gap:10px;
+  margin-bottom:20px;
+}
+
+input{
+  flex:1;
+  padding:15px;
+  width: 80%;
+  
+  border-radius:25px;
+ border: 2px solid black;
+  background:transparent;
+  outline:none;
+}
+input::placeholder {
+  color: #8e5151;
+  font-style: italic;
+}
+button{
+  padding:10px 20px;
+  border:none;
+  border-radius:25px;
+  background:#d16a6a;
+  color:white;
+  cursor:pointer;
+  font-weight:500;
+}
+
+button:hover{
+  background:#600707;
+}

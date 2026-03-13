@@ -1,0 +1,15 @@
+.filter-buttons {
+  margin-top: 15px;
+  
+}
+
+.filter-buttons button {
+  margin: 5px;
+  background-color: #d16a6a;
+  margin-left: 10.5%;
+  
+}
+
+.filter-buttons button:hover {
+  background-color: #680909;
+}

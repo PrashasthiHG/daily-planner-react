@@ -1,0 +1,37 @@
+ul{
+  list-style:none;
+  padding:0;
+}
+
+li{
+  display:flex;
+  align-items:center;
+  justify-content:space-between;
+  background:transparent;
+  padding:12px 15px;
+  margin-bottom:10px;
+  border-radius:15px;
+  transition:0.2s;
+  
+}
+
+li:hover{
+  transform:scale(1.02);
+}
+li span{
+  color: #600707;
+}
+
+span{
+  flex:1;
+  margin-left:10px;
+}
+
+.completed span{
+  text-decoration:line-through;
+  color:gray;
+}
+
+input[type="checkbox"]{
+  accent-color:#ff6b6b;
+}
